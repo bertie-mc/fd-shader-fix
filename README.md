@@ -1,3 +1,5 @@
+> **Development has moved:** See [the `fd-shader-fix` module in the Bertie monorepo](https://github.com/bertie-mc/bertie/tree/main/mods/fd-shader-fix). This repository is retained read-only for historical tags, releases, and issues.
+
 # FdLib Post-Shader Fix
 
 Wraps *fdlib*'s post-shader initialization in a try/catch so an intermittent shader-load race is logged and skipped instead of crashing the client.
